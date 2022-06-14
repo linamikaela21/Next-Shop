@@ -11,7 +11,7 @@ interface Props {
 export const ShopLayout: FC<PropsWithChildren<Props>> = ({
   title = "Next-Ecommerce",
   pageDescription,
-  imageURL,
+  imageURL = 'unaimagen.jpg',
   children,
 }) => {
   return (

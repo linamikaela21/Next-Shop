@@ -6,7 +6,6 @@ const NotFound = () => {
     <ShopLayout
       title="Page not Found"
       pageDescription="Nothing to show"
-      imageURL=""
     >
       <Box
         display="flex"
